@@ -336,6 +336,10 @@ a {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .activite-card h3{
+        font-size: 16px;
+    }
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -420,10 +424,13 @@ a {
     .activite-card {
         width: 100%;
         margin: 10px 0px;
-        height: 220px;
+        height: 180px;
     }
     .activite-card img {
-        height: 60%;
+        height: 70%;
+    }
+    .activite-card h3{
+        margin: 5px 0;
     }
     /* footer */
     .foot {
